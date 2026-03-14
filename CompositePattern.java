@@ -19,7 +19,7 @@ public class CompositePattern {
         root.add(docs);
         root.add(image);
 
-        // root.ls();
+        root.ls();
        //   docs.ls();
        // root.openAll();
 
