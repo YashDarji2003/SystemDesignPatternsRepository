@@ -126,7 +126,7 @@ class SpaceGameWithFlyweight {
         List<String> textures = List.of("Rocky", "Icy", "Metallic");
         List<String> materials = List.of("Iron", "Stone", "Ice");
 
-        int size[] = new int[] { 25, 35, 45 };
+       // int size[] = new int[] { 25, 35, 45 };
         for (int i = 0; i < count; i++) {
             int type = i % 3;
             AsteroidFlyweight asteroidFlyweight = AsteroidFactory.getAsteroid(

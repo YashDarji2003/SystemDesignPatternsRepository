@@ -1,3 +1,4 @@
+package BehaviourPattern;
 public class CommandPattern {
     public static void main(String[] args) {
         Light light = new Light();
